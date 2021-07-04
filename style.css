@@ -64,7 +64,9 @@ h2{
     margin-bottom: 3%;
 }
 .experience-area{
-
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .responsibility{
     text-align: justify;
@@ -76,4 +78,20 @@ h2{
     margin-right: 5%;
     padding-left: 2%;
     box-shadow: 10px 10px 50px orangered;
+    border-radius: 10px;
+}
+#baby-web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, orangered);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
 }
