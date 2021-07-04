@@ -15,7 +15,7 @@ h1{
 .name-color{
     color: orange;
 }
-#identity{
+.identity{
     text-align: justify;
 }
 
@@ -38,10 +38,23 @@ h1{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     display: flex;
+    margin-bottom: 150px;
 }
-
 .dream-big{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
     display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.download-resume{
+    text-decoration: none;
+    background-image: linear-gradient(red,orange);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.objective{
+    text-align: justify;
+    padding-right: 13%;
 }
